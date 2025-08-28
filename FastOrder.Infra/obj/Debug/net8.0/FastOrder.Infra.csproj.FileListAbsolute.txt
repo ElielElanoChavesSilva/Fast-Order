@@ -1,0 +1,5 @@
+C:\Users\eliel.silva\source\repos\FastOrder.Infra\obj\Debug\net8.0\FastOrder.Infra.csproj.AssemblyReference.cache
+C:\Users\eliel.silva\source\repos\FastOrder.Infra\obj\Debug\net8.0\FastOrder.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliel.silva\source\repos\FastOrder.Infra\obj\Debug\net8.0\FastOrder.Infra.AssemblyInfoInputs.cache
+C:\Users\eliel.silva\source\repos\FastOrder.Infra\obj\Debug\net8.0\FastOrder.Infra.AssemblyInfo.cs
+C:\Users\eliel.silva\source\repos\FastOrder.Infra\obj\Debug\net8.0\FastOrder.Infra.csproj.CoreCompileInputs.cache

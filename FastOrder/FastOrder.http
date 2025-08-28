@@ -1,0 +1,6 @@
+@FastOrder_HostAddress = http://localhost:5253
+
+GET {{FastOrder_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
