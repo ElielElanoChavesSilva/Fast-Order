@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjxsNxMPQes=",
+  "dgSpecHash": "5WH49Oiggb4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Application\\FastOrder.Application.csproj",
+  "projectFilePath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\FastOrder.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliel.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.8\\microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
     "C:\\Users\\eliel.silva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.8\\microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",

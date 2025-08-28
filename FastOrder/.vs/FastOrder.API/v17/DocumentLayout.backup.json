@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder\\",
+  "WorkspaceRootPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fastorder.infra\\repositories\\base\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.infra\\repositories\\base\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fastorder.infra\\repositories\\base\\crudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.infra\\repositories\\base\\crudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fastorder.infra\\repositories\\client\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.infra\\repositories\\client\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fastorder.infra\\repositories\\servicecolletion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.infra\\repositories\\servicecolletion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CrudRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
-              "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
+              "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T01:34:11.772Z",
+              "WhenOpened": "2025-08-28T01:26:58.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
-              "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\Base\\ReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CrudRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T01:34:01.766Z",
+              "WhenOpened": "2025-08-28T01:26:57.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\Client\\ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Client\\ClientRepository.cs",
               "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\Client\\ClientRepository.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\Client\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Client\\ClientRepository.cs",
               "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\Client\\ClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T01:33:34.178Z"
+              "WhenOpened": "2025-08-28T01:26:39.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ServiceColletion.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\ServiceColletion.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\ServiceColletion.cs",
               "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\ServiceColletion.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\Repositories\\ServiceColletion.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\ServiceColletion.cs",
               "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\ServiceColletion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T01:30:29.839Z"
+              "WhenOpened": "2025-08-28T01:26:30.884Z",
+              "EditorCaption": ""
             }
           ]
         }

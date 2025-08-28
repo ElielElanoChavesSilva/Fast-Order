@@ -12,14 +12,14 @@ namespace FastOrder.Infra.Repositories.Base
         {
             _context = context;
         }
-        public Task<IEnumerable<TEntity>> FindAll()
+        public Task<List<TEntity>> FindAll()
         {
             return _context.Set<TEntity>().ToListAsync();
         }
 
-        public Task<TEntity> FindById(TId id)
+        public Task<TEntity?> FindById(TId id)
         {
-            throw new NotImplementedException();
+            return _context.FindAsync<TEntity>(id).AsTask();
         }
     }
 }

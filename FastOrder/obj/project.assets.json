@@ -1328,11 +1328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder\\FastOrder.csproj",
+      "projectUniqueName": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\FastOrder.csproj",
       "projectName": "FastOrder",
-      "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder\\FastOrder.csproj",
+      "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\FastOrder.csproj",
       "packagesPath": "C:\\Users\\eliel.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder\\obj\\",
+      "outputPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1354,11 +1354,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Application\\FastOrder.Application.csproj": {
-              "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Application\\FastOrder.Application.csproj"
+            "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\FastOrder.Application.csproj": {
+              "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\FastOrder.Application.csproj"
             },
-            "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\FastOrder.Infra.csproj": {
-              "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Infra\\FastOrder.Infra.csproj"
+            "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\FastOrder.Infra.csproj": {
+              "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\FastOrder.Infra.csproj"
             }
           }
         }

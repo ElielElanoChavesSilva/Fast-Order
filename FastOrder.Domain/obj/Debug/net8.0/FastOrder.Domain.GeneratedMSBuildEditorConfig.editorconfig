@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FastOrder.Domain
-build_property.ProjectDir = C:\Users\eliel.silva\source\repos\FastOrder.Domain\
+build_property.ProjectDir = C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Domain\\FastOrder.Domain.csproj": {}
+    "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Domain\\FastOrder.Domain.csproj": {
+    "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Domain\\FastOrder.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj",
         "projectName": "FastOrder.Domain",
-        "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Domain\\FastOrder.Domain.csproj",
+        "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj",
         "packagesPath": "C:\\Users\\eliel.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eliel.silva\\source\\repos\\FastOrder.Domain\\obj\\",
+        "outputPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

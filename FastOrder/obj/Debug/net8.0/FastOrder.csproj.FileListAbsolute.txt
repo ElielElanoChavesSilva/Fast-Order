@@ -34,3 +34,13 @@ C:\Users\eliel.silva\source\repos\FastOrder\obj\Debug\net8.0\refint\FastOrder.dl
 C:\Users\eliel.silva\source\repos\FastOrder\obj\Debug\net8.0\FastOrder.pdb
 C:\Users\eliel.silva\source\repos\FastOrder\obj\Debug\net8.0\FastOrder.genruntimeconfig.cache
 C:\Users\eliel.silva\source\repos\FastOrder\obj\Debug\net8.0\ref\FastOrder.dll
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.csproj.AssemblyReference.cache
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.AssemblyInfoInputs.cache
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.AssemblyInfo.cs
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.csproj.CoreCompileInputs.cache
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.sourcelink.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.dll
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\refint\FastOrder.dll
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.pdb

@@ -1,6 +1,9 @@
-﻿namespace FastOrder.Infra.Repositories.Client
+﻿using FastOrder.Domain.Entities;
+using FastOrder.Infra.Repositories.Base;
+
+namespace FastOrder.Infra.Repositories.Client
 {
-    public class Class1
+    public class ClientRepository : CrudRepository<long , ClientEntity>
     {
 
     }
