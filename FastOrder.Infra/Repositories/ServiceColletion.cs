@@ -1,10 +1,11 @@
 ﻿using FastOrder.Domain.Repositories;
 using FastOrder.Infra.Context;
+using FastOrder.Infra.Repositories.Client;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FastOrder.Infra.Repository
+namespace FastOrder.Infra.Repositories
 {
     public static class ServiceColletion
     {
@@ -23,7 +24,9 @@ namespace FastOrder.Infra.Repository
 
         public static IServiceCollection ConfigureRepositories(this IServiceCollection collection)
         {
-            collection.AddScoped<IClientRepository, ClientRepository>()
+            collection.AddScoped<IClientRepository, ClientRepository>();
+
+            return collection;
         }
     }
 }

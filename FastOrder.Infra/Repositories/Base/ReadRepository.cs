@@ -6,20 +6,21 @@ namespace FastOrder.Infra.Repositories.Base
 {
     public abstract class ReadRepository<TId, TEntity> : IReadRepository<TId, TEntity> where TEntity : class
     {
-        private readonly MainContext _context;
+        protected readonly MainContext Context;
 
         protected ReadRepository(MainContext context)
         {
-            _context = context;
+            Context = context;
         }
+
         public Task<List<TEntity>> FindAll()
         {
-            return _context.Set<TEntity>().ToListAsync();
+            return Context.Set<TEntity>().ToListAsync();
         }
 
         public Task<TEntity?> FindById(TId id)
         {
-            return _context.FindAsync<TEntity>(id).AsTask();
+            return Context.FindAsync<TEntity>(id).AsTask();
         }
     }
 }
