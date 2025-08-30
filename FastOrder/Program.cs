@@ -1,4 +1,4 @@
-using FastOrder.Infra.Repository;
+using FastOrder.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
