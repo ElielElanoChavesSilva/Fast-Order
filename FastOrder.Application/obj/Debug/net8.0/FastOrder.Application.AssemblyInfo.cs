@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastOrder.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+248ea4a2e38d11761efcc676580d3e6369a94e71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99847a4f40909762a88ea89514a72f84dbbaa621")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastOrder.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastOrder.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
