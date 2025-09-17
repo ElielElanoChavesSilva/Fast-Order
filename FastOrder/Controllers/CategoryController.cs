@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FastOrder.Controllers
 {
-    public class CategoryController : Controller
+    public class CategoryController : BaseController
     {
         // GET: CategoryController
         public ActionResult Index()

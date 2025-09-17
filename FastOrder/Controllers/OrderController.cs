@@ -2,7 +2,7 @@
 
 namespace FastOrder.Controllers
 {
-    public class OrderController : Controller
+    public class OrderController : BaseController
     {
         public IActionResult Index()
         {
