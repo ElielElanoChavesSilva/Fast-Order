@@ -19,8 +19,9 @@ if (app.Environment.IsDevelopment())
 }
 
 builder.Services.ConfigureDatabase(builder.Configuration);
-app.UseHttpsRedirection();
+builder.Services.ConfigureRepositories();
 
+app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
