@@ -380,7 +380,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "FastOrder.Domain": "1.0.0"
+          "FastOrder.Domain": "1.0.0",
+          "FastOrder.Infra": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FastOrder.Application.dll": {}

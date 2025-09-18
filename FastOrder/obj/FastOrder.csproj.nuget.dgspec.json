@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj": {
                 "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj"
+              },
+              "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\FastOrder.Infra.csproj": {
+                "projectPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\FastOrder.Infra.csproj"
               }
             }
           }

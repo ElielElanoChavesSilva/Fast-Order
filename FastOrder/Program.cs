@@ -1,3 +1,4 @@
+using FastOrder;
 using FastOrder.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
