@@ -2,8 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FastOrder.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
+    [Route("products")]
     public class ProductController : BaseController
     {
         private static readonly string[] Summaries = new[]

@@ -43,7 +43,7 @@ namespace FastOrder.Controllers
         }
 
 
-        [HttpGet("{id}")]
+        [HttpGet]
         public async Task<IEnumerable<ClientDTO>> FindAllAsync()
         {
             return await _clientService.FindAllAsync();
