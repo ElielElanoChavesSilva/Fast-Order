@@ -20,16 +20,18 @@ namespace FastOrder.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ClientDTO>> PostAsync()
+        public async Task<CreatedResult> PostAsync(ClientDTO dto)
         {
-            return await _clientService.Add();
+            await _clientService.Add(dto);
+            return Created();
         }
 
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<ClientDTO>> PutAsync(long id)
+        public async Task<IActionResult> PutAsync(long id, ClientDTO dto)
         {
-            return await _clientService.Update(id);
+                await _clientService.Put(dto);
+                return NoContent();
         }
 
 

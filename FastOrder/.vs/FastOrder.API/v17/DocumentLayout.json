@@ -9,11 +9,11 @@
       "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\mappers\\client\\clientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\mappers\\client\\clientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -51,27 +51,27 @@
               "RelativeDocumentMoniker": "..\\FastOrder.Application\\Contracts\\IClientService.cs",
               "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Contracts\\IClientService.cs",
               "RelativeToolTip": "..\\FastOrder.Application\\Contracts\\IClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T01:37:21.979Z",
+              "WhenOpened": "2025-09-23T01:42:42.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\ClientController.cs",
               "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAywBgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T01:28:30.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ClientMapper.cs",
               "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Mappers\\Client\\ClientMapper.cs",
               "RelativeDocumentMoniker": "..\\FastOrder.Application\\Mappers\\Client\\ClientMapper.cs",
@@ -90,7 +90,7 @@
               "RelativeDocumentMoniker": "..\\FastOrder.Application\\Services\\ClientService.cs",
               "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\ClientService.cs",
               "RelativeToolTip": "..\\FastOrder.Application\\Services\\ClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T17:05:58.682Z",
               "EditorCaption": ""
