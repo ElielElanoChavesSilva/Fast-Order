@@ -30,15 +30,16 @@ namespace FastOrder.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsync(long id, ClientDTO dto)
         {
-                await _clientService.Put(dto);
-                return NoContent();
+            await _clientService.Put(dto);
+            return NoContent();
         }
 
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<ClientDTO>> Delete(long id)
+        public async Task<IActionResult> Delete(long id)
         {
-            return await _clientService.FindById(id);
+            await _clientService.Delete(id);
+            return NoContent();
         }
 
 
