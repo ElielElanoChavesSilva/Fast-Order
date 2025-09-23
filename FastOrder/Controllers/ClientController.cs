@@ -36,7 +36,7 @@ namespace FastOrder.Controllers
 
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(long id)
+        public async Task<IActionResult> DeleteAsync(long id)
         {
             await _clientService.Delete(id);
             return NoContent();
@@ -44,9 +44,9 @@ namespace FastOrder.Controllers
 
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<ClientDTO>> FindById(long id)
+        public async Task<IEnumerable<ClientDTO>> FindAllAsync()
         {
-            return await _clientService.FindById(id);
+            return await _clientService.FindAllAsync();
         }
     }
 }
