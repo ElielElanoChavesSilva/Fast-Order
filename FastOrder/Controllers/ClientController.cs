@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FastOrder.Application.Contracts;
+using FastOrder.Application.DTOs;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FastOrder.Controllers
 {
-    public class ClientController : BaseController 
+    public class ClientController : BaseController
     {
-        public IActionResult Index()
+        private readonly IClientService _clientService;
+
+        public ClientController(IClientService clientService)
         {
-            return View();
+            _clientService = clientService;
+        }
+        public async Task<ActionResult<ClientDTO>> FindById(long id)
+        {
+            return await _clientService.FindById(id);
         }
     }
 }

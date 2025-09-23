@@ -3,14 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\contracts\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\mappers\\client\\clientmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.infra\\repositories\\base\\crudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,41 +46,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "..\\FastOrder.Application\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Contracts\\IClientService.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Contracts\\IClientService.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Contracts\\IClientService.cs",
+              "RelativeToolTip": "..\\FastOrder.Application\\Contracts\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:00:42.074Z",
+              "WhenOpened": "2025-09-23T01:29:32.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T01:48:11.535Z",
+              "WhenOpened": "2025-09-23T01:28:30.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientMapper.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Mappers\\Client\\ClientMapper.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Mappers\\Client\\ClientMapper.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Mappers\\Client\\ClientMapper.cs",
+              "RelativeToolTip": "..\\FastOrder.Application\\Mappers\\Client\\ClientMapper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAMwBwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:41:48.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Contracts\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Contracts\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Contracts\\IAuthenticationService.cs",
-              "RelativeToolTip": "..\\FastOrder.Application\\Contracts\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\ClientService.cs",
+              "RelativeToolTip": "..\\FastOrder.Application\\Services\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T01:16:58.158Z",
+              "WhenOpened": "2025-09-20T17:05:58.682Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:57:59.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrudRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "RelativeToolTip": "..\\FastOrder.Infra\\Repositories\\Base\\CrudRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:28:23.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "..\\FastOrder.Application\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:24:46.67Z"
             }
           ]
         }
