@@ -40,6 +40,7 @@ namespace FastOrder
             collection.AddScoped<IClientService, ClientService>();
             collection.AddScoped<IOrderService, OrderService>();
             collection.AddScoped<IItemOrderService, ItemOrderService>();
+            collection.AddScoped<IAuthenticationService, AuthenticationService>();
             collection.AddScoped<ICategoryService, CategoryService>();
             collection.AddScoped<IProductService, ProductService>();
 

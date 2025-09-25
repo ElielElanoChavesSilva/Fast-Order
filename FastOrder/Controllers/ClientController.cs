@@ -44,9 +44,9 @@ namespace FastOrder.Controllers
 
 
         [HttpGet]
-        public async Task<IEnumerable<ClientDTO>> FindAllAsync()
+        public async Task<ActionResult<IEnumerable<ClientDTO>>> FindAllAsync()
         {
-            return await _clientService.FindAllAsync();
+            return Ok(await _clientService.FindAllAsync());
         }
     }
 }

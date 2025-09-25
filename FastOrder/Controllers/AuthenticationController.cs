@@ -9,16 +9,18 @@ namespace FastOrder.Controllers
     {
         private readonly IAuthenticationService _authenticationService;
 
-        public AuthenticationController(IAuthenticationService authenticationService)
+        public AuthenticationController(
+            IAuthenticationService authenticationService)
         {
             _authenticationService = authenticationService;
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> SignUp(ClientDTO dto)
+        public async Task<ActionResult<int>> SignUpAsync(ClientDTO dto)
         {
-            var id = await _authenticationService.Signup(dto);
+            var id = await _authenticationService.SignUp(dto);
             return Created("auth/me", id);
         }
+
     }
 }
