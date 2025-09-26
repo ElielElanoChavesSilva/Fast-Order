@@ -13,6 +13,7 @@ namespace FastOrder.Controllers
         {
             _clientService = clientService;
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<ClientDTO>> FindByIdAsync(long id)
         {

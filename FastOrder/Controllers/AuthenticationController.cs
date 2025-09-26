@@ -21,6 +21,5 @@ namespace FastOrder.Controllers
             var id = await _authenticationService.SignUp(dto);
             return Created("auth/me", id);
         }
-
     }
 }
