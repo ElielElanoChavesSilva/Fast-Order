@@ -1,3 +1,5 @@
+using FastOrder.Application.Contracts;
+using FastOrder.Application.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FastOrder.Controllers
@@ -5,9 +7,18 @@ namespace FastOrder.Controllers
     [Route("products")]
     public class ProductController : BaseController
     {
-        public ProductController()
+        private readonly IProductService _productService;
+
+        public ProductController(IProductService productService)
         {
-            
+            _productService = productService;
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllAsync()
+        {
+            return Ok(await _productService.GetAll());
         }
     }
 }

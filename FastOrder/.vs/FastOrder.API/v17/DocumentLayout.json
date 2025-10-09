@@ -3,31 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21A4E9AA-3609-4160-A0CA-2A753AA93603}|..\\FastOrder.Domain\\FastOrder.Domain.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.domain\\entities\\cliententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A4E9AA-3609-4160-A0CA-2A753AA93603}|..\\FastOrder.Domain\\FastOrder.Domain.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.domain\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A4E9AA-3609-4160-A0CA-2A753AA93603}|..\\FastOrder.Domain\\FastOrder.Domain.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.domain\\entities\\itemorderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21A4E9AA-3609-4160-A0CA-2A753AA93603}|..\\FastOrder.Domain\\FastOrder.Domain.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.domain\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\servicecolletion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:servicecolletion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CCFAE89-FAD4-4C4F-8728-E12AF56A999D}|..\\FastOrder.Infra\\FastOrder.Infra.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.infra\\context\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C8AC08BE-DF61-495C-A555-0D558888CB67}|FastOrder.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4AEF46BC-4196-49ED-9673-5BBEE55376EC}|..\\FastOrder.Application\\FastOrder.Application.csproj|c:\\users\\eliel.silva\\source\\repos\\fast-order-rep\\fastorder.application\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,105 +29,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientEntity.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\ClientEntity.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Domain\\Entities\\ClientEntity.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\ClientEntity.cs",
-              "RelativeToolTip": "..\\FastOrder.Domain\\Entities\\ClientEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:57:57.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderEntity.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\OrderEntity.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Domain\\Entities\\OrderEntity.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\OrderEntity.cs",
-              "RelativeToolTip": "..\\FastOrder.Domain\\Entities\\OrderEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:57:55.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CategoryEntity.cs",
               "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\CategoryEntity.cs",
               "RelativeDocumentMoniker": "..\\FastOrder.Domain\\Entities\\CategoryEntity.cs",
               "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\CategoryEntity.cs",
               "RelativeToolTip": "..\\FastOrder.Domain\\Entities\\CategoryEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:57:44.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemOrderEntity.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\ItemOrderEntity.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Domain\\Entities\\ItemOrderEntity.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\Entities\\ItemOrderEntity.cs",
-              "RelativeToolTip": "..\\FastOrder.Domain\\Entities\\ItemOrderEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:57:25.621Z",
+              "WhenOpened": "2025-10-08T23:59:28.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Mappers\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "..\\FastOrder.Application\\Mappers\\ProductMapper.cs",
+              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Application\\Mappers\\ProductMapper.cs",
+              "RelativeToolTip": "..\\FastOrder.Application\\Mappers\\ProductMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:52:41.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-26T01:46:08.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceColletion.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\ServiceColletion.cs",
-              "RelativeDocumentMoniker": "ServiceColletion.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder\\ServiceColletion.cs",
-              "RelativeToolTip": "ServiceColletion.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAMwBAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:45:09.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainContext.cs",
-              "DocumentMoniker": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Context\\MainContext.cs",
-              "RelativeDocumentMoniker": "..\\FastOrder.Infra\\Context\\MainContext.cs",
-              "ToolTip": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Infra\\Context\\MainContext.cs",
-              "RelativeToolTip": "..\\FastOrder.Infra\\Context\\MainContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:43:54.297Z",
+              "WhenOpened": "2025-10-08T23:43:21.48Z",
               "EditorCaption": ""
             }
           ]
