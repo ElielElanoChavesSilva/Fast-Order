@@ -14,11 +14,17 @@ namespace FastOrder.Controllers
             _productService = productService;
         }
 
-
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllAsync()
         {
-            return Ok(await _productService.GetAll());
+            return Ok(await _productService.GetAllAsync());
+        }
+
+        [HttpPost]
+        public async Task<CreatedResult> PostAsync(ProductDTO product)
+        {
+            var id = await _productService.PostAsync(product);
+            return Created("products", id);
         }
     }
 }
