@@ -26,5 +26,11 @@ namespace FastOrder.Controllers
         {
             return Ok(await _orderService.FindByIdAsync(id));
         }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<OrderDTO>>> GetAllAsync()
+        {
+            return Ok(await _orderService.FindAllAsync());
+        }
     }
 }
