@@ -24,7 +24,7 @@ namespace FastOrder.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<OrderDTO>> GetByIdAsync(long id)
         {
-            return Ok(await _orderService.FindById(id));
+            return Ok(await _orderService.FindByIdAsync(id));
         }
     }
 }
