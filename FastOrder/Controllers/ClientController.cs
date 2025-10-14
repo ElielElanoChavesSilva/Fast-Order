@@ -43,7 +43,6 @@ namespace FastOrder.Controllers
             return NoContent();
         }
 
-
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClientDTO>>> FindAllAsync()
         {

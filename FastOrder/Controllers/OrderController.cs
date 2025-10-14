@@ -1,5 +1,5 @@
 ﻿using FastOrder.Application.Contracts;
-using FastOrder.Application.DTOs;
+using FastOrder.Application.DTOs.Order;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FastOrder.Controllers
@@ -15,7 +15,7 @@ namespace FastOrder.Controllers
         }
 
         [HttpPost]
-        public async Task<CreatedResult> PostAsync(OrderDTO dto)
+        public async Task<CreatedResult> PostAsync(OrderPostDTO dto)
         {
             var id = await _orderService.PostOrderAsync(dto);
             return Created($"orders/{id}", id);
