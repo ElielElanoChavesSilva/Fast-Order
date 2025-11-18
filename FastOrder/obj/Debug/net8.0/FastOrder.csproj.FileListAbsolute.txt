@@ -76,11 +76,6 @@ C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\Fast
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\FastOrder.Domain.pdb
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets\msbuild.FastOrder.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets\msbuild.build.FastOrder.props
-C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FastOrder.props
-C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FastOrder.props
-C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\scopedcss\bundle\FastOrder.styles.css
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.csproj.Up2Date
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\FastOrder.dll
@@ -175,3 +170,11 @@ C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\tr\M
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\bin\Debug\net8.0\FastOrder.staticwebassets.endpoints.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
