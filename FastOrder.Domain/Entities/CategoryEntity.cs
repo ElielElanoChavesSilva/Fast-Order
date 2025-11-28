@@ -2,7 +2,7 @@
 
 namespace FastOrder.Domain.Entities
 {
-    [Table("ItemOrder")]
+    [Table("Category")]
     public class CategoryEntity
     {
         public long  Id { get; set; }

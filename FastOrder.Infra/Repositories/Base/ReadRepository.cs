@@ -1,26 +1,22 @@
-﻿using FastOrder.Domain.Repositories.Base;
+﻿using System.Diagnostics.CodeAnalysis;
+using FastOrder.Domain.Repositories.Base;
 using FastOrder.Infra.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace FastOrder.Infra.Repositories.Base
 {
-    public abstract class ReadRepository<TId, TEntity> : IReadRepository<TId, TEntity> where TEntity : class
+    public abstract class ReadRepository<TId, TEntity>(MainContext context) : IReadRepository<TId, TEntity> where TEntity : class
     {
-        protected readonly MainContext Context;
-
-        protected ReadRepository(MainContext context)
+        public virtual Task<List<TEntity>> FindAll()
         {
-            Context = context;
+            return context.Set<TEntity>().ToListAsync();
         }
 
-        public Task<List<TEntity>> FindAll()
+        public virtual Task<TEntity?> FindById(TId id)
         {
-            return Context.Set<TEntity>().ToListAsync();
+            return context.FindAsync<TEntity>(id).AsTask();
         }
 
-        public Task<TEntity?> FindById(TId id)
-        {
-            return Context.FindAsync<TEntity>(id).AsTask();
-        }
+        public async Task<bool> Exists(TId id) => await FindById(id) is not null;
     }
 }

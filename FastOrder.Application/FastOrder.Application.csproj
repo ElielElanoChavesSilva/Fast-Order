@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FastOrder.Domain\FastOrder.Domain.csproj" />
+    <ProjectReference Include="..\FastOrder.Infra\FastOrder.Infra.csproj" />
   </ItemGroup>
 
 </Project>

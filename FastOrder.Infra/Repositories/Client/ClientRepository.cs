@@ -5,10 +5,8 @@ using FastOrder.Infra.Repositories.Base;
 
 namespace FastOrder.Infra.Repositories.Client
 {
-    public class ClientRepository : CrudRepository<long , ClientEntity>, IClientRepository
+    public class ClientRepository(MainContext context) : CrudRepository<long , ClientEntity>(context), IClientRepository
     {
-        public ClientRepository(MainContext context) : base(context)
-        {
-        }
+     
     }
 }

@@ -17,7 +17,9 @@ C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug\net8.0\FastOrder.Application.dll
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug\net8.0\FastOrder.Application.pdb
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug\net8.0\FastOrder.Domain.dll
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug\net8.0\FastOrder.Infra.dll
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug\net8.0\FastOrder.Domain.pdb
+C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\bin\Debug\net8.0\FastOrder.Infra.pdb
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\obj\Debug\net8.0\FastOrder.Application.csproj.AssemblyReference.cache
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\obj\Debug\net8.0\FastOrder.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Application\obj\Debug\net8.0\FastOrder.Application.AssemblyInfoInputs.cache

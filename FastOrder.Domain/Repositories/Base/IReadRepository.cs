@@ -4,5 +4,6 @@
     {
         Task<List<TEntity>> FindAll();
         Task<TEntity?> FindById(TId id);
+        Task<bool> Exists(TId id);
     }
 }

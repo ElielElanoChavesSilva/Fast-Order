@@ -3,34 +3,30 @@ using FastOrder.Infra.Context;
 
 namespace FastOrder.Infra.Repositories.Base
 {
-    public class CrudRepository<TId, TEntity> : ReadRepository<TId, TEntity>, ICrudRepository<TId, TEntity> where TEntity : class
+    public class CrudRepository<TId, TEntity>(MainContext context) : ReadRepository<TId, TEntity>(context), ICrudRepository<TId, TEntity> where TEntity : class
     {
-        protected CrudRepository(MainContext context) : base(context)
-        {
-        }
-
         public Task<TEntity> Add(TEntity entity)
         {
-               var response =  Context.AddAsync(entity).AsTask();
-               Context.SaveChanges();
-               return Task.FromResult(response.Result.Entity);
+            context.AddAsync(entity);
+            context.SaveChanges();
+            return Task.FromResult(entity);
         }
 
         public void Update(TEntity entity)
         {
-            Context.Update(entity);
-            Context.SaveChanges();
+            context.Update(entity);
+            context.SaveChanges();
         }
 
         public void Delete(TEntity entity)
         {
-            Context.Remove(entity);
-            Context.SaveChanges();
+            context.Remove(entity);
+            context.SaveChanges();
         }
 
         public void Delete(TId id)
         {
-            Context.SaveChanges();
+            context.SaveChanges();
         }
     }
 }

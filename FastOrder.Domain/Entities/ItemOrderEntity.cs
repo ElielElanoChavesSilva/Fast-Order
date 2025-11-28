@@ -9,6 +9,8 @@ namespace FastOrder.Domain.Entities
         public int QtdProduct { get; set; }
         public long ProductId { get; set; }
         public ProductEntity Product { get; set; }
+        public long OrderId { get; set; }
+        public OrderEntity Order { get; set; }
         public decimal Price { get; set; }
     }
 }

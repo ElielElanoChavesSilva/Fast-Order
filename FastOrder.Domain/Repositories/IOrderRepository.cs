@@ -5,5 +5,6 @@ namespace FastOrder.Domain.Repositories
 {
     public interface IOrderRepository : ICrudRepository<long ,OrderEntity>
     {
+        Task<List<OrderEntity>> FindAllByClient(long idClient);
     }
 }

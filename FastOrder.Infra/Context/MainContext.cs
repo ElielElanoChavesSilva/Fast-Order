@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 namespace FastOrder.Infra.Context
 {
-    public class MainContext(DbContextOptions options) : DbContext
+    public class MainContext(DbContextOptions<MainContext> options) : DbContext(options)
     {
         public DbSet<ProductEntity> Products { get; set; }
         public DbSet<OrderEntity> Orders { get; set; }
