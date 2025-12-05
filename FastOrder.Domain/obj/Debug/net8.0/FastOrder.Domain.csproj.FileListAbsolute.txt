@@ -23,3 +23,16 @@ C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\refint\FastOrder.Domain.dll
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.pdb
 C:\Users\eliel.silva\source\repos\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\ref\FastOrder.Domain.dll
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\bin\Debug\net8.0\FastOrder.Domain.deps.json
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\bin\Debug\net8.0\FastOrder.Domain.dll
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\bin\Debug\net8.0\FastOrder.Domain.pdb
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.csproj.AssemblyReference.cache
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.AssemblyInfoInputs.cache
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.AssemblyInfo.cs
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.csproj.CoreCompileInputs.cache
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.sourcelink.json
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.dll
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\refint\FastOrder.Domain.dll
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\FastOrder.Domain.pdb
+C:\Users\eliel.silva\source\repos\RabbitMQ\Fast-Order-Rep\FastOrder.Domain\obj\Debug\net8.0\ref\FastOrder.Domain.dll

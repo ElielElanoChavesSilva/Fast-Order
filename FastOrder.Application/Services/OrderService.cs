@@ -2,6 +2,7 @@
 using FastOrder.Application.DTOs.Order;
 using FastOrder.Application.Mappers;
 using FastOrder.Domain.Repositories;
+using FastOrder.Infra.Messaging;
 
 namespace FastOrder.Application.Services
 {
@@ -9,11 +10,14 @@ namespace FastOrder.Application.Services
     {
         private readonly IOrderRepository _orderRepository;
         private readonly IClientRepository _clientRepository;
+        private readonly OrderEventPublisher _orderEventPublisher;
 
         public OrderService(
             IClientRepository clientRepository,
-            IOrderRepository orderRepository)
+            IOrderRepository orderRepository,
+            OrderEventPublisher orderEventPublisher)
         {
+            _orderEventPublisher = orderEventPublisher;
             _clientRepository = clientRepository;
             _orderRepository = orderRepository;
         }
@@ -29,8 +33,17 @@ namespace FastOrder.Application.Services
             orderEntity.CreatedAt = DateTime.Now;
             orderEntity.UpdateAt = DateTime.Now;
 
-            var result = await _orderRepository.Add(orderEntity);
-            return result.Id;
+            orderEntity = await _orderRepository.Add(orderEntity);
+
+            await _orderEventPublisher.PublishOrderCreatedAsync(new()
+            {
+                Id = orderEntity.Id,
+                CreatedAt = orderEntity.CreatedAt,
+                TotalPrice = orderEntity.TotalPrice,
+                UpdateAt = orderEntity.UpdateAt
+            });
+
+            return orderEntity.Id;
         }
 
         public async Task<OrderDTO> FindByIdAsync(long id)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OLrGlUUp+eY=",
+  "dgSpecHash": "sk+x20lhRL0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eliel.silva\\source\\repos\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj",
+  "projectFilePath": "C:\\Users\\eliel.silva\\source\\repos\\RabbitMQ\\Fast-Order-Rep\\FastOrder.Domain\\FastOrder.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliel.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.9\\microsoft.entityframeworkcore.9.0.9.nupkg.sha512",
     "C:\\Users\\eliel.silva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.9\\microsoft.entityframeworkcore.abstractions.9.0.9.nupkg.sha512",
