@@ -1,5 +1,6 @@
 ﻿using FastOrder.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+
 namespace FastOrder.Infra.Context
 {
     public class MainContext(DbContextOptions<MainContext> options) : DbContext(options)

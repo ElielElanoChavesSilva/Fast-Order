@@ -6,7 +6,7 @@ namespace FastOrder.Domain.Entities
     public class ProductEntity
     {
         public long Id { get; set; }
-        public string Name { get; set; }
-        public CategoryEntity Category { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public CategoryEntity Category { get; set; } = null!;
     }
 }

@@ -3,8 +3,10 @@ using FastOrder.Infra.Context;
 
 namespace FastOrder.Infra.Repositories.Base
 {
-    public class CrudRepository<TId, TEntity>(MainContext context) : ReadRepository<TId, TEntity>(context), ICrudRepository<TId, TEntity> where TEntity : class
+    public class CrudRepository<TId, TEntity>(MainContext context) :
+        ReadRepository<TId, TEntity>(context), ICrudRepository<TId, TEntity> where TEntity : class
     {
+
         public Task<TEntity> Add(TEntity entity)
         {
             context.AddAsync(entity);

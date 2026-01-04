@@ -1,7 +1,9 @@
 ﻿using FastOrder.Application.Contracts;
+using FastOrder.Application.Publishers;
 using FastOrder.Application.Services;
 using FastOrder.Domain.Repositories;
 using FastOrder.Infra.Context;
+using FastOrder.Infra.Messaging;
 using FastOrder.Infra.Repositories.Category;
 using FastOrder.Infra.Repositories.Client;
 using FastOrder.Infra.Repositories.ItemOrder;
@@ -28,15 +30,28 @@ namespace FastOrder
             return collection;
         }
 
-        public static IServiceCollection ConfigureRepositories(this IServiceCollection collection)
+        public static void ConfigureRepositories(this IServiceCollection collection)
         {
             collection.AddScoped<IClientRepository, ClientRepository>();
             collection.AddScoped<IOrderRepository, OrderRepository>();
             collection.AddScoped<IItemOrderRepository, ItemOrderRepository>();
             collection.AddScoped<ICategoryRepository, CategoryRepository>();
             collection.AddScoped<IProductRepository, ProductRepository>();
+        }
 
-            return collection;
+        public static void ConfigureRabbitMq(this IServiceCollection collection)
+        {
+            collection.AddSingleton<RabbitMqProducer>();
+            collection.AddSingleton<OrderEventPublisher>();
+            collection.AddSingleton<RabbitMqConnection>(sp =>
+            {
+                var configuration = sp.GetRequiredService<IConfiguration>();
+                var hostName = configuration["RabbitMq:HostName"] ?? throw new InvalidOperationException("RabbitMq HostName not configured");
+                var userName = configuration["RabbitMq:UserName"] ?? throw new InvalidOperationException("RabbitMq UserName not configured");
+                var password = configuration["RabbitMq:Password"] ?? throw new InvalidOperationException("RabbitMq Password not configured");
+
+                return new RabbitMqConnection(hostName, userName, password);
+            });
         }
 
         public static IServiceCollection ConfigureServices(this IServiceCollection collection)

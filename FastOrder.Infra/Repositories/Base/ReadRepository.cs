@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using FastOrder.Domain.Repositories.Base;
+﻿using FastOrder.Domain.Repositories.Base;
 using FastOrder.Infra.Context;
 using Microsoft.EntityFrameworkCore;
 

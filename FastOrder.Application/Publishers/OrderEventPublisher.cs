@@ -1,5 +1,8 @@
-﻿using System.Text.Json;
-namespace FastOrder.Infra.Messaging;
+﻿using FastOrder.Application.Events;
+using FastOrder.Infra.Messaging;
+using System.Text.Json;
+
+namespace FastOrder.Application.Publishers;
 
 public class OrderEventPublisher
 {

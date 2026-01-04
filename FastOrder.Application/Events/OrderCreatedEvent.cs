@@ -1,4 +1,4 @@
-﻿namespace FastOrder.Infra.Messaging;
+﻿namespace FastOrder.Application.Events;
 
 public class OrderCreatedEvent
 {

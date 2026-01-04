@@ -1,6 +1,6 @@
 namespace ConsumerAPI.Services;
 
-public class Consumer
+public class ConsumerService
 {
 
 }

@@ -1,9 +1,7 @@
 using FastOrder;
-using FastOrder.Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -12,6 +10,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.ConfigureDatabase(builder.Configuration);
 builder.Services.ConfigureRepositories();
 builder.Services.ConfigureServices();
+//Mensageria
+builder.Services.ConfigureRabbitMq();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

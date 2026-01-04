@@ -11,8 +11,8 @@ namespace FastOrder.Infra.Repositories.Order
         public Task<List<OrderEntity>> FindAllByClient(long idClient)
         {
             return context.Set<OrderEntity>()
-                .Where(o =>o.ClientEntity.Id == idClient)
-                .OrderByDescending(o =>o.CreatedAt)
+                .Where(o => o.ClientEntity.Id == idClient)
+                .OrderByDescending(o => o.CreatedAt)
                 .ToListAsync();
         }
 
@@ -22,6 +22,5 @@ namespace FastOrder.Infra.Repositories.Order
                 .Include(o => o.ClientEntity)
                 .ToListAsync();
         }
-
     }
 }

@@ -1,8 +1,8 @@
 ﻿using FastOrder.Application.Contracts;
 using FastOrder.Application.DTOs.Order;
 using FastOrder.Application.Mappers;
+using FastOrder.Application.Publishers;
 using FastOrder.Domain.Repositories;
-using FastOrder.Infra.Messaging;
 
 namespace FastOrder.Application.Services
 {
@@ -24,9 +24,8 @@ namespace FastOrder.Application.Services
 
         public async Task<long> PostOrderAsync(OrderPostDTO orderDTO)
         {
-            var clientEntity = await _clientRepository.FindById(orderDTO.IdClient);
-            if (clientEntity == null)
-                throw new Exception($"Cliente de Id: {orderDTO.IdClient} não encontrado");
+            var clientEntity = await _clientRepository.FindById(orderDTO.IdClient) ??
+                               throw new Exception($"Cliente de Id: {orderDTO.IdClient} não encontrado");
 
             var orderEntity = OrderMapper.ToEntity(orderDTO);
             orderEntity.ClientEntity = clientEntity;
@@ -46,10 +45,9 @@ namespace FastOrder.Application.Services
             return orderEntity.Id;
         }
 
-        public async Task<OrderDTO> FindByIdAsync(long id)
+        public async Task<OrderDTO?> FindByIdAsync(long id)
         {
-            var entity = await _orderRepository.FindById(id);
-            if (entity == null)
+            var entity = await _orderRepository.FindById(id) ??
                 throw new Exception("Não foi possível encontrar esse pedido");
 
             return OrderMapper.ToDTO(entity);
